@@ -1,14 +1,20 @@
-<template name="vslide8">
+<template name="slide-components">
     <div class="vslide">
         <div class="vslide-content"> <!-- important if you want horizontal and vertical aligning -->
             <div class="vslide-col-1 vslide-big-list"> <!-- centered, responsive one column, text align left -->
 {{#markdown}}
 # Użyte komponenty
 
-- Livequery - obserwuje zapytania do bazy danych
-- DDP - protokół służący do komunikacji serwer-klient
-- Minimongo - implementacja MongoDB w przeglądarce, przechowuje dane oraz odpowiada za zapytania do bazy danych wykonywane przez klienta
+- Livequery - obserwuje zmiany zachodzące w bazie danych i informuje
+zainteresowanych tymi zmianami
+
+- DDP - protokół służący do komunikacji klient <-> serwer
+
+- Minimongo - implementacja MongoDB w przeglądarce, przechowuje dane oraz
+odpowiada za zapytania do bazy danych wykonywane przez klienta
+
 - Tracker - wprowadza reaktywność
+
 - Blaze - wyświetla widoki, z uwzględnieniem zmian zachodzących w czasie rzeczywistym
 
 Wszystkie komponenty opisane są szczegółowo na stronie [meteor.com/projects](http://meteor.com/projects)
