@@ -2,13 +2,14 @@
 
 var slides = [
   // 'intro',
-  // 'plan',
   'michal1',
   'michal2',
   'michal3',
+  'michal-dlaczego',
   'michal4',
   'michal5',
   'michal6',
+  'plan',
   'meteor1',
   'meteor2',
   'meteor3',
@@ -18,8 +19,7 @@ var slides = [
   'apps',
   'community',
   'links',
-  'michal-end',
-  'end'
+  'michal-end'
 ];
 
 _(slides).each(function(name, i){
