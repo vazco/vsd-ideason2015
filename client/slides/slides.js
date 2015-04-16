@@ -1,9 +1,14 @@
 'use strict';
 
 var slides = [
-  'intro',
-  'plan',
+  // 'intro',
+  // 'plan',
   'michal1',
+  'michal2',
+  'michal3',
+  'michal4',
+  'michal5',
+  'michal6',
   'meteor1',
   'meteor2',
   'meteor3',
@@ -13,7 +18,7 @@ var slides = [
   'apps',
   'community',
   'links',
-  'michal2',
+  'michal-end',
   'end'
 ];
 
